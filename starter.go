@@ -2,7 +2,6 @@ package main
 
 import (
 	"./ly"
-	"fmt"
 )
 
 func main() {
@@ -14,11 +13,15 @@ func main() {
 	//ly.ForCommon()
 	//ly.ForWhile()
 	//ly.ForLoop()
-	fmt.Print(ly.Sqrt(9))
-	ly.SwitchLike("a")
-	ly.SwitchWithoutCondition()
-
-	defer fmt.Println("world")
-	fmt.Println("hello")
-
+	//fmt.Print(ly.Sqrt(9))
+	//ly.SwitchLike("a")
+	//ly.SwitchWithoutCondition()
+	//ly.GreetWorld()
+	//ly.DeferStack()
+	//ly.ShowRange()
+	//println(ly.WordCount("ab bbbc")["b"])
+	//ly.OutFib()
+	//ly.PrintSringer()
+	//fmt.Println(ly.SqrtWithError(-2))
+	ly.R13Read()
 }
